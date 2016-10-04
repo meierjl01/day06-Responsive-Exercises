@@ -1,0 +1,180 @@
+body {
+  color: #46A1D7;
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+p {
+  text-align: center; }
+
+.nav-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .nav-icons li {
+    display: inline-block;
+    border: 3px solid #46A1D7;
+    border-radius: 50%; }
+    .nav-icons li i {
+      padding: 5px;
+      height: 1em;
+      width: 1em; }
+
+.tab-link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+  .tab-link li {
+    display: inline-block;
+    text-align: center; }
+  .tab-link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #46A1D7; }
+
+.Sushi-Gumbo {
+  padding-top: 5%;
+  border-top: 1px solid;
+  box-sizing: border-box; }
+
+header {
+  text-align: center; }
+  header nav {
+    padding-bottom: 2em; }
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 400; }
+
+h2 {
+  text-align: center; }
+
+h5 {
+  font-size: 2em;
+  letter-spacing: 17px;
+  margin-bottom: 0; }
+
+.tabs {
+  display: inline-block;
+  border-top: 1px solid;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.tabs::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.tab-link {
+  padding-left: 7%;
+  font-size: 1.25em;
+  margin: -2em; }
+
+.tab-link i {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 3em; }
+
+.nav-icons {
+  text-align: center; }
+  .nav-icons i {
+    font-size: 1rem;
+    border: 90px; }
+
+.tab-link h6 {
+  display: none; }
+
+.primary-icon i {
+  font-size: 3em;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  text-align: center; }
+
+.Sushi-Gumbo-Icon {
+  box-sizing: border-box;
+  background-color: #46A1D7;
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center; }
+
+.Pea-Sprouts-Icon {
+  box-sizing: border-box;
+  background-color: #46A1D7;
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center; }
+
+.Turnip-Broccoli-Icon {
+  box-sizing: border-box;
+  background-color: #46A1D7;
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center; }
+
+@media (min-width: 510px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    text-align: left; }
+
+  h5 {
+    font-size: .5em; }
+
+  p {
+    text-align: left; }
+
+  .tab-link h6 {
+    display: none; }
+
+  .primary-icon {
+    text-align: left;
+    margin-bottom: 5em; }
+
+  .Sushi-Gumbo-Icon {
+    float: left;
+    margin-right: 1em; }
+
+  .Pea-Sprouts-Icon {
+    float: left;
+    margin-right: 1em; }
+
+  .Turnip-Broccoli-Icon {
+    float: left;
+    margin-right: 1em; } }
+@media (min-width: 840px) {
+  h1 {
+    font-size: 2.5em;
+    text-align: left; }
+
+  h5 {
+    font-size: 1em;
+    text-align: left;
+    line-spacing: 3px; }
+
+  .nav-icons {
+    float: right;
+    width: 25%;
+    display: inline-block;
+    margin-top: -5em; }
+
+  header nav {
+    position: relative; }
+
+  header::after {
+    content: '';
+    clear: both;
+    display: block;
+    position: relative; } }
+
+/*# sourceMappingURL=main.css.map */
