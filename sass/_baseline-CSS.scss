@@ -1,51 +1,51 @@
 body {
-  color: #46A1D7;
-  font-size: 62.5%;
-  font-family: sans-serif;
+    color: #46A1D7;
+    font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 p {
-  text-align: center;
+    text-align: center;
 }
 
 .nav-icons {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-  li {
-    display: inline-block;
-    border: 3px solid #46A1D7;
-    border-radius: 50%;
+    li {
+        display: inline-block;
+        border: 3px solid #46A1D7;
+        border-radius: 50%;
 
-  i {
-    padding: 5px;
-    height: 1em;
-    width: 1em;
-  }
-  }
+        i {
+            padding: 5px;
+            height: 1em;
+            width: 1em;
+        }
+    }
 }
 
 .tab-link {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-
-  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: inline-block;
-    text-align: center;
-  }
 
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: #46A1D7;
-  }
+    li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #46A1D7;
+    }
 }
 
 .Sushi-Gumbo {
-  padding-top: 5%;
-  border-top: 1px solid;
-  box-sizing: border-box;
+    padding-top: 5%;
+    border-top: 1px solid;
+    box-sizing: border-box;
 }

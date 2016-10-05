@@ -94,25 +94,7 @@ h5 {
   background-color: #FFFFFF;
   text-align: center; }
 
-.Sushi-Gumbo-Icon {
-  box-sizing: border-box;
-  background-color: #46A1D7;
-  width: 220px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0 auto;
-  text-align: center; }
-
-.Pea-Sprouts-Icon {
-  box-sizing: border-box;
-  background-color: #46A1D7;
-  width: 220px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0 auto;
-  text-align: center; }
-
-.Turnip-Broccoli-Icon {
+.Icon {
   box-sizing: border-box;
   background-color: #46A1D7;
   width: 220px;
@@ -140,18 +122,9 @@ h5 {
   .primary-icon {
     text-align: left;
     margin-bottom: 5em; }
-
-  .Sushi-Gumbo-Icon {
-    float: left;
-    margin-right: 1em; }
-
-  .Pea-Sprouts-Icon {
-    float: left;
-    margin-right: 1em; }
-
-  .Turnip-Broccoli-Icon {
-    float: left;
-    margin-right: 1em; } }
+    .primary-icon .Icon {
+      float: left;
+      margin-right: 1em; } }
 @media (min-width: 840px) {
   h1 {
     font-size: 2.5em;
